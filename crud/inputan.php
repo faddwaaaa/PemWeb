@@ -1,5 +1,5 @@
 <?php
-require "../public/functions.php";
+require "functions.php";
 $nis = $_POST['nisInput'];
 $nama = $_POST['namaInput'];
 $nilai = $_POST['nilaiInput'];

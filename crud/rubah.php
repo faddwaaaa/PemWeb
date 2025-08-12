@@ -1,5 +1,5 @@
 <?php
-require "../public/functions.php";
+require "functions.php";
 $id = $_POST['id'];
 $nis = $_POST['nis'];
 $nama = $_POST['nama'];

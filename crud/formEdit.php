@@ -1,5 +1,5 @@
 <?php
-require "../public/functions.php";
+require "functions.php";
 $id = $_GET['id'];
 
 $query = "SELECT * FROM siswa01 WHERE id = $id";

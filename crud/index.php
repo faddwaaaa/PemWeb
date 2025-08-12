@@ -1,12 +1,12 @@
 <?php
-require "../public/functions.php";
-$query = "SELECT * FROM siswa01";
-$result = mysqli_query($conn, $query);
+require "functions.php";
+$siswa = query("SELECT * FROM siswa01");
 
-$rows = [];
-while($row = mysqli_fetch_assoc($result)){
-    $rows[] = $row;
-};
+
+// $rows = [];
+// while($row = mysqli_fetch_assoc($result)){
+//     $rows[] = $row;
+// };
 
 $no = 1;
 ?>
@@ -29,7 +29,7 @@ $no = 1;
             <th>Nilai</th>
             <th>Proses</th>
         </tr>
-        <?php foreach($rows as $row):
+        <?php foreach($siswa as $row):
             $id = $row["id"];
         ?>
         <tr>

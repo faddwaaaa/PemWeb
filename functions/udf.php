@@ -1,7 +1,7 @@
 <?php
 // user defined function
 function myMessage() {
-  echo "Hello world!";
+  echo "<h1>Hello world!</h1>";
 }
 
 myMessage();
