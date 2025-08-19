@@ -9,6 +9,4 @@ function luas($a,$t) {
     return $l;
 }
 
-echo "5 + 10 = " . sum(5,10) . "<br>";
-echo "luas : " . luas(2,4);
 ?>
