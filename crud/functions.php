@@ -12,7 +12,7 @@ function query( $query ) {
     return $rows;
 };
 
-function ubah($data) : int|string {
+function ubah($data){
     global $conn;
 
     $id = $data['id'];
